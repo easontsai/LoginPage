@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.validation.Valid;
 import java.util.List;
-
+/*表示層 負責接收前端的請求並請Service處理*/
 @Controller
 public class LoginController {
     @Autowired
